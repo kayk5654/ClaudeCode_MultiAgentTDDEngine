@@ -1,0 +1,60 @@
+[
+  {
+    "linearProjectId": "example-project-id-1",
+    "projectName": "Example Python Project",
+    "repoPath": "/home/user/dev/example-python-project",
+    "agents": [
+      {
+        "mention": "@developer",
+        "role": "Senior Python Developer",
+        "testCommand": "pytest",
+        "description": "Develops and implements code to make failing tests pass"
+      },
+      {
+        "mention": "@tester",
+        "role": "Software Quality Engineer", 
+        "testCommand": null,
+        "description": "Creates comprehensive test cases for new features"
+      }
+    ],
+    "gitSettings": {
+      "defaultBranch": "main",
+      "branchPrefix": "feature/",
+      "commitMessageTemplate": "feat({issue_id}): {description}"
+    },
+    "testSettings": {
+      "framework": "pytest",
+      "testDirectory": "tests/",
+      "coverageThreshold": 90
+    }
+  },
+  {
+    "linearProjectId": "example-project-id-2",
+    "projectName": "Example Node.js Project",
+    "repoPath": "/home/user/dev/example-nodejs-project",
+    "agents": [
+      {
+        "mention": "@developer",
+        "role": "Senior Node.js Developer",
+        "testCommand": "npm test",
+        "description": "Develops JavaScript/TypeScript applications"
+      },
+      {
+        "mention": "@tester",
+        "role": "QA Engineer",
+        "testCommand": null,
+        "description": "Creates test cases for Node.js applications"
+      }
+    ],
+    "gitSettings": {
+      "defaultBranch": "main",
+      "branchPrefix": "feature/",
+      "commitMessageTemplate": "feat({issue_id}): {description}"
+    },
+    "testSettings": {
+      "framework": "jest",
+      "testDirectory": "tests/",
+      "coverageThreshold": 85
+    }
+  }
+]

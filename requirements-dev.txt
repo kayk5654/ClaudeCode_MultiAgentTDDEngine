@@ -1,0 +1,62 @@
+# Development Dependencies for Multi-Agent TDD Development System
+
+# Include production requirements
+-r requirements.txt
+
+# Testing Framework
+pytest>=7.4.0,<8.0.0
+pytest-asyncio>=0.21.0,<1.0.0
+pytest-cov>=4.1.0,<5.0.0
+pytest-mock>=3.12.0,<4.0.0
+pytest-xdist>=3.5.0,<4.0.0  # Parallel test execution
+
+# Code Quality and Formatting
+black>=23.12.0,<24.0.0
+ruff>=0.1.9,<1.0.0
+isort>=5.13.0,<6.0.0
+
+# Type Checking
+mypy>=1.8.0,<2.0.0
+types-requests>=2.31.0,<3.0.0
+types-PyYAML>=6.0.0,<7.0.0
+
+# Documentation
+sphinx>=7.2.0,<8.0.0
+sphinx-rtd-theme>=2.0.0,<3.0.0
+myst-parser>=2.0.0,<3.0.0
+
+# Development Tools
+pre-commit>=3.6.0,<4.0.0
+commitizen>=3.13.0,<4.0.0
+bump2version>=1.0.1,<2.0.0
+
+# Security Scanning
+bandit>=1.7.5,<2.0.0
+safety>=2.3.0,<3.0.0
+
+# Performance Profiling
+py-spy>=0.3.14,<1.0.0
+memory-profiler>=0.61.0,<1.0.0
+
+# HTTP Testing
+httpx>=0.26.0,<1.0.0
+respx>=0.20.0,<1.0.0
+
+# Debugging
+ipdb>=0.13.13,<1.0.0
+rich>=13.7.0,<14.0.0  # Better console output
+
+# Environment Management
+tox>=4.11.0,<5.0.0
+
+# Code Coverage
+coverage[toml]>=7.4.0,<8.0.0
+
+# Git Hooks and Automation
+pre-commit-hooks>=4.5.0,<5.0.0
+
+# API Documentation
+fastapi[all]>=0.104.0,<1.0.0  # Includes swagger/redoc support
+
+# Load Testing (for future performance testing)
+locust>=2.20.0,<3.0.0
