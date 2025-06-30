@@ -1,0 +1,63 @@
+[
+  {
+    "linearProjectId": "61c8a2f4-8b74-4f5c-9b3e-2a1d5e7f8c9d",
+    "projectName": "Multi-Agent TDD System - Core Engine",
+    "repoPath": "/home/kayk/projects/ClaudeCode_MultiAgentTDDEngine",
+    "agents": [
+      {
+        "mention": "@developer",
+        "role": "Senior Python Developer specializing in clean architecture and FastAPI development",
+        "testCommand": "pytest tests/ -v --cov=src --cov-report=term-missing"
+      },
+      {
+        "mention": "@tester",
+        "role": "Software Quality Engineer specializing in TDD and comprehensive test coverage",
+        "testCommand": "pytest tests/ -v --tb=short"
+      },
+      {
+        "mention": "@architect",
+        "role": "Software Architect specializing in clean architecture and system design",
+        "testCommand": "pytest tests/integration/ -v"
+      }
+    ]
+  },
+  {
+    "linearProjectId": "example-demo-project-id-123",
+    "projectName": "Demo E-commerce Platform",
+    "repoPath": "/home/user/dev/demo-ecommerce",
+    "agents": [
+      {
+        "mention": "@developer",
+        "role": "Senior Full-Stack Developer with expertise in Python, FastAPI, and React",
+        "testCommand": "pytest tests/ -v --cov=src"
+      },
+      {
+        "mention": "@tester", 
+        "role": "QA Engineer specializing in e-commerce testing and user experience validation",
+        "testCommand": "pytest tests/ -v --markers=integration"
+      },
+      {
+        "mention": "@api-dev",
+        "role": "Backend API Developer specializing in RESTful services and database design",
+        "testCommand": "pytest tests/api/ -v"
+      }
+    ]
+  },
+  {
+    "linearProjectId": "example-nodejs-project-456",
+    "projectName": "Real-time Chat Application",
+    "repoPath": "/home/user/dev/chat-app",
+    "agents": [
+      {
+        "mention": "@developer",
+        "role": "Senior NodeJS Developer with expertise in WebSocket and real-time applications",
+        "testCommand": "npm test"
+      },
+      {
+        "mention": "@frontend-dev",
+        "role": "Frontend Developer specializing in React and real-time UI components",
+        "testCommand": "npm run test:frontend"
+      }
+    ]
+  }
+]
