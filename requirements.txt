@@ -30,6 +30,10 @@ structlog>=23.2.0,<24.0.0
 # Rate Limiting and Resilience
 tenacity>=8.2.3,<9.0.0
 
+# Slack Integration
+slack-bolt>=1.18.0,<2.0.0
+slack-sdk>=3.26.0,<4.0.0
+
 # Phase 2: Advanced TDD Workflow Engine (Future)
 # langgraph>=0.2.0,<1.0.0
 # langchain>=0.3.0,<1.0.0
