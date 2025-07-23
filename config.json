@@ -3,24 +3,24 @@
     "linearProjectId": "61c8a2f4-8b74-4f5c-9b3e-2a1d5e7f8c9d",
     "projectName": "Multi-Agent TDD System - Core Engine",
     "repoPath": "/home/kayk/projects/ClaudeCode_MultiAgentTDDEngine",
-    "slackChannelId": "C01234567",
-    "slackWorkspaceId": "T01234567",
+    "slackChannelId": "C0972PPRQCV",
+    "slackWorkspaceId": "T096EQMB5ED",
     "agents": [
       {
         "mention": "@developer",
-        "slackBotId": "U01234567",
+        "slackBotId": "U0971H2EWKG",
         "role": "Senior Python Developer specializing in clean architecture and FastAPI development",
         "testCommand": "pytest tests/ -v --cov=src --cov-report=term-missing"
       },
       {
         "mention": "@tester",
-        "slackBotId": "U01234568",
+        "slackBotId": "U0971H2EWKG",
         "role": "Software Quality Engineer specializing in TDD and comprehensive test coverage",
         "testCommand": "pytest tests/ -v --tb=short"
       },
       {
         "mention": "@architect",
-        "slackBotId": "U01234569",
+        "slackBotId": "U0971H2EWKG",
         "role": "Software Architect specializing in clean architecture and system design",
         "testCommand": "pytest tests/integration/ -v"
       }
